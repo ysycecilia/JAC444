@@ -1,0 +1,12 @@
+Practice basic concepts such as encapsulation and abstraction.
+
+A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward. Stack is a simple data structure/container which acts as LIFO (last element in, would be the first element out.)
+In this assignment, first, develop a Stack class. Second, develop a second Java class named Palindrome that in its main method, receives a string as a command-line argument, and then uses a Stack object to check whether the given string is a palindrome or not.
+
+Please note that you should:
+a- have appropriate indentation.
+b- have proper file structures and modularization.
+c- follow Java naming conventions.
+d- document all the classes properly.
+e- not have debug/useless code and/or file(s) left in assignment.
+f- have good intra and/or inter class designs in your code!
