@@ -1,5 +1,5 @@
-Description:
-This second assignment lets you practice basic concepts such as encapsulation and abstraction, inheritance, polymorphism, and exceptions.
+Practice basic concepts such as encapsulation and abstraction, inheritance, polymorphism, and exceptions.
+
 In this assignment, you will be working with geometrical shapes such as: Circle, Square, Rectangle, Parallelogram, and Triangle. Use the following figure as a reference (you don’t need to calculate shapes’ area for this assignment):
 You will need to create geometrical shapes and calculate their perimeters. Therefore, you must develop java classes for all the geometrical shapes mentioned above (put all your classes in a package named shapes). Each class must be able to calculate the shape’s perimeter. For each class, you must provide implementations for toString(), at least one constructor, setters/getters, and the documentations for the entire class.
 You should also provide an interface Shape as the root of the inheritance hierarchy, and design the appropriate “is-a” relationships among the above-mentioned classes.
@@ -8,6 +8,7 @@ If a line is not properly formatted or it does not contain the necessary number 
 
 Copy the shapes.txt file in the root folder of your Java project in Eclipse. We would cover exceptions in week 4 and File IO in week 5, but if you want to start ahead of time, you could use the following code snippet to read all the lines from the file. You could also consider using the split() method of class String to split each line to its composing items:
 try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+
 while ((s = br.readLine()) != null) {
 String[] tokens = s.split(",");
 //your code
